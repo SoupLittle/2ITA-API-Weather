@@ -12,6 +12,46 @@
 
  <body>
 
+  <div id="firstText">
+   <h1>Weather forecast</h1>
+  </div>
+
+
+  <div id="serchFeild">
+   <input type="text" placeholder="City..." id="cityName"/><br><br
+  </div>
+
+
+  <div id="enter">
+   <input type="button" value="Enter" placeholder="Enter"> <br><br><br>
+  </div>
+
+
+
+  <div id="place">
+ <h3>${data.main.name},${data.sys.country}</h3>
+  </div>
+
+
+
+
+  <div id="temp">
+   <p>${data.main.temp}</p>
+  </div> <br><br>
+
+  <div id="skyies">
+<img src="./CLoud.png" alt="A Single Cloud" height="60px" width="60px"><br>
+<h5>${data.weather.description}</h5>
+  </div> <br><br>
+
+  <div id="minTemp">
+   Min Temp: ${data.main.temp_min} &deg;C
+  </div>
+
+  <div id="highTemp">
+   Max Temp: ${data.main.temp_max} &deg;C
+  </div>
+
    
     
 <script src="./index.js">

@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+
+        body {
+            background-size: cover;
+            background-image: url("./Bacground1.png");
+            background-repeat: no-repeat;
+            margin: 0;
+            font-family: 'Roboto Mono', monospace;
+        }
+
+        #firstText {
+            text-align: center; 
+            padding: 20px;
+        }
+
+        #serchFeild {
+            text-align: center; 
+            padding: 5px;
+        }
+
+        #temp {
+            text-align: center;
+            font-size: 50px;
+        }
+
+        input[type=text] {
+            font-family: 'Roboto Mono', monospace;
+        }
+
+        input[type=button] {
+            font-family: 'Roboto Mono', monospace;
+        }
